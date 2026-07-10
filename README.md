@@ -15,10 +15,19 @@ Support teams lose significant time on **manual triage** — reading every incom
 This project automates the triage step entirely:
 
 1. A support email comes in.
-2. An LLM reads it and classifies **category**, **urgency (1–5)**, and **sentiment**, and drafts a suggested reply — all in one call.
-3. Tickets that are urgent, billing-related, or clearly negative are **instantly escalated to Slack** so a human can jump on them immediately.
-4. Lower-priority tickets are logged with a draft reply ready to go, no human needed to triage them first.
-5. **Every ticket** — regardless of urgency — is logged to a Google Sheet, creating a running audit trail and a simple analytics dashboard.
+
+<img width="1571" height="533" alt="image" src="https://github.com/user-attachments/assets/5c2b40c4-baeb-47d5-909a-f4a5f89909ba" />
+
+3. An LLM reads it and classifies **category**, **urgency (1–5)**, and **sentiment**, and drafts a suggested reply — all in one call.
+4. Tickets that are urgent, billing-related, or clearly negative are **instantly escalated to Slack** so a human can jump on them immediately.
+
+<img width="1852" height="816" alt="image" src="https://github.com/user-attachments/assets/97a52b4a-cf31-4089-99f7-1083a48536c7" />
+
+5. Lower-priority tickets are logged with a draft reply ready to go, no human needed to triage them first.
+6. **Every ticket** — regardless of urgency — is logged to a Google Sheet, creating a running audit trail and a simple analytics dashboard.
+
+<img width="1710" height="471" alt="image" src="https://github.com/user-attachments/assets/45cce8d2-117e-4c0a-b6e0-7111514c7db8" />
+
 
 The result: instead of a human reading and sorting every single ticket, they only see the ones that actually need their judgment, with full context and a suggested reply already prepared.
 
@@ -80,4 +89,3 @@ The workflow was tested against 15 sample emails spanning billing disputes, tech
 
 ---
 
-**Built by [your name]** — [your GitHub / portfolio link]
