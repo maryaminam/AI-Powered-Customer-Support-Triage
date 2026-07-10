@@ -59,7 +59,6 @@ Based on testing against 15 varied sample tickets (billing, technical, refunds, 
 - **100% of urgent/negative tickets** were correctly escalated to Slack with full context and a suggested reply, so the human's first action is reviewing, not investigating
 - Classification held up consistently across categories (billing, technical, refund, complaint, spam, general) with a low-temperature prompt and a strict JSON schema
 
-*(Update these numbers with your own test results before publishing — see the Testing section below.)*
 
 ## Key engineering decisions
 
